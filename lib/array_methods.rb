@@ -19,7 +19,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  lowest = 
+  lowest = 10000
   
   array.length.times { |index|
     if array[index] < lowest
